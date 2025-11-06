@@ -1,0 +1,56 @@
+{
+  "expo": {
+    "name": "HASTE",
+    "slug": "haste-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTabletMode": true,
+      "bundleIdentifier": "com.hastemobile.app",
+      "build": {
+        "env": {
+          "CI": "true"
+        }
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.hastemobile.app"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Allow HASTE to access your photos.",
+          "cameraPermission": "Allow HASTE to access your camera.",
+          "microphonePermission": "Allow HASTE to access your microphone."
+        }
+      ]
+    ],
+    "scheme": "hastemobile",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "extra": {
+      "apiUrl": "https://stingray-app-yitsm.ondigitalocean.app"
+    }
+  }
+}
