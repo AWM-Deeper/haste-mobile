@@ -1,0 +1,72 @@
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Expo
+.expo/
+.expo-shared/
+dist/
+
+# Testing
+coverage/
+.nyc_output/
+
+# Misc
+.DS_Store
+*.pem
+*.key
+*.cert
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.env.local.backup
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Cache
+.cache/
+.eslintcache
+
+# Build
+build/
+dist/
+*.tsbuildinfo
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Sensitive Files
+secrets/
+.credentials
+authtoken*
+
+# Local development
+.eas/
+.expo-cli
+
+# Platform specific
+.gradle/
+.m2/
+Android/
+ios/
+
+# Temporary files
+*.tmp
+*.temp
+~*
