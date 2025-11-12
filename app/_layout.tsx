@@ -4,10 +4,10 @@ import { View, StyleSheet, SafeAreaView } from 'react-native';
 import Ionicons from '@expo/vector-icons/Ionicons';
 
 const COLORS = {
-  primary: '#A855F7',
-  secondary: '#3B82F6',
-  background: '#FFFFFF',
-  text: '#1F2937',
+  primary: ''#000000',
+  secondary: ''#1a1a1a',
+  background: ''#000000',
+  text: ''#ffffff',
 };
 
 export default function RootLayout() {
